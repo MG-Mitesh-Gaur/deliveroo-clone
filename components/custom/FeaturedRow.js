@@ -3,6 +3,8 @@ import React from 'react'
 import { Icon } from '@rneui/themed'
 import ResturantCard from './ResturantCard'
 
+const mock_data = require('../../MOCK_DATA.json')
+
 const FeaturedRow = ({ id, title, description }) => {
   return (
     <View>
@@ -30,7 +32,7 @@ const FeaturedRow = ({ id, title, description }) => {
             genre="Japanese"
             address="123 Main St"
             short_description="This is a test description"
-            dishes={[]}
+            dishes={mock_data}
             long={20}
             lat={0}
         />
@@ -43,7 +45,7 @@ const FeaturedRow = ({ id, title, description }) => {
             genre="Japanese"
             address="123 Main St"
             short_description="This is a test description"
-            dishes={[]}
+            dishes={mock_data}
             long={20}
             lat={0}
         />

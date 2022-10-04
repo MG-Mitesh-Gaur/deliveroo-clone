@@ -44,7 +44,7 @@ const HomeScreen = () => {
 						<View>
 							<Icon name='search' color={'gray'} />
 						</View>
-						<TextInput placeholder='Restaurants and cuisines' keyboardType='x' />
+						<TextInput placeholder='Restaurants and cuisines' keyboardType='default' />
 					</View>
 
 					<View>
